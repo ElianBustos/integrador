@@ -202,7 +202,7 @@
         <!-- cantidad de entradas  -->
         <div class="col-md mb-3 ">
           <div class="text-center text-decoration-underline">Cantidad de Entradas</div>
-          <input type="number" name="cantEntradas" id="cantEntradas" onkeyup="calcularPrecioTotal()" class="form-control" required  min="1" max="15">
+          <input type="number" name="cantEntradas" id="cantEntradas" onkeyup="calcularPrecioTotal()"  onchange="calcularPrecioTotal()" class="form-control" required  min="1" max="15">
           <div class="fontSize ">Precio por entrada $1000</div> 
           <div class="fontSize ">Maximo de entradas 15</div>
         </div>
